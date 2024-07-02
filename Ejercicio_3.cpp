@@ -2,7 +2,7 @@
 #include <string.h>
 using namespace std;
 
-void ponermayus(string cadena) {
+void ocurrencia(string cadena) {
 	int n=0,cont=0;
 	while (cadena[n]!='\0') {
 		n++;
@@ -19,6 +19,6 @@ int main() {
 	array="Hola a todos";
 	cout<<"Contar la ocurrencia de una letra especifica en una cadena de entrada"<<endl;
 	cout<<endl<<array<<endl<<endl;
-	ponermayus(array);
+	ocurrencia(array);
 	return 0;
 }
